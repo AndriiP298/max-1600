@@ -39,7 +39,7 @@
             outline: none;
             border: none;
             min-width: 2.5rem !important; //40px
-            max-width: 42.188rem; //675px
+            max-width: 42.188rem; 
             padding: 0 0.125rem; // 0 2px 0 2px;
             line-height: 4.438rem; //71px
             border-bottom: 0.125rem /*2px*/ solid rgba(255, 255, 255, 0);
@@ -299,7 +299,7 @@
             }
 
             #campaign-input-select {
-              max-width: 35.625rem; //570px
+              max-width: 30.625rem; 
               font-size: 2.625rem; //42px
               line-height: 2.813rem; //45px
             }
