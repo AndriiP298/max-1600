@@ -406,7 +406,7 @@
             }
 
             #campaign-input-select {
-              max-width: 24.375rem; //390px
+              max-width: 22.375rem; //390px
               font-size: 1.875rem; //30px
               line-height: 2.5rem; //40px
             }
@@ -498,7 +498,7 @@
           .fourth-title {
             .tags-selected {
               ul {
-                overflow-y: scroll;
+                overflow: hidden;
               }
             }
           }

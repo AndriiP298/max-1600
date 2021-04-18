@@ -1124,7 +1124,7 @@ a:hover {
     margin-bottom: 0;
   }
   .main-layout-container .campaign-contact-list .second-block-campaign .campaign-title .block-with-title #campaign-input-select {
-    max-width: 24.375rem;
+    max-width: 22.375rem;
     font-size: 1.875rem;
     line-height: 2.5rem;
   }
@@ -1186,7 +1186,7 @@ a:hover {
     margin-right: 0.625rem;
   }
   .main-layout-container .campaign-contact-list .second-block-campaign .title-btn .fourth-title .tags-selected ul {
-    overflow-y: scroll;
+    overflow: hidden;
   }
 }
 
