@@ -26,9 +26,8 @@
       .vp-log {
         display: flex;
         align-items: center;
-        max-width: 11.875rem; //190px
         img {
-          width: 100%;
+          max-width: 11.875rem; //190px
         }
 
         span {
@@ -166,7 +165,9 @@
 
       .header-wrapper {
         .vp-log {
+          img{
           max-width: 9.688rem; //155px
+          }
 
           span {
             font-size: 0.6875rem /*11px*/;
@@ -270,12 +271,11 @@
           justify-content: space-between;
 
           .vp-log {
-            max-width: 8.125rem; //130px
             display: flex;
             align-items: center;
 
             img {
-              width: 100%;
+            max-width: 8.125rem; //130px
             }
           }
 
