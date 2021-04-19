@@ -259,9 +259,8 @@ a:hover {
 .vp-header .main-header {
   width: 90%;
   margin: auto;
-  max-width: 73.125rem;
-  padding: 0.625rem 0;
-  /*10px 0*/
+  max-width: 52.188rem;
+  padding: 0.313rem 0;
 }
 
 .vp-header .main-header .mobile-header-wrapper {
@@ -290,24 +289,23 @@ a:hover {
 }
 
 .vp-header .main-header .header-wrapper .vp-log img {
-  max-width: 11.875rem;
+  max-width: 9.688rem;
 }
 
 .vp-header .main-header .header-wrapper .vp-log span {
-  font: normal 100 0.812rem "SF-Pro-Rounded-Bold";
+  font: normal 100 0.6875rem "SF-Pro-Rounded-Bold";
   color: #fff;
   text-transform: uppercase;
+  line-height: 0.813rem;
   letter-spacing: 0.0625rem;
   background-color: #0d77f2;
-  padding: 0.25rem 0.5rem;
-  /*4px 8px*/
-  margin-left: 0.625rem;
-  /*10px*/
+  padding: 0.188rem 0.375rem 0.125rem;
+  margin-left: 0.438rem;
   border-radius: 0.25rem;
 }
 
 .vp-header .main-header .header-wrapper .vp-menu {
-  max-width: 27.813rem;
+  max-width: 21.875rem;
   width: 100%;
   margin: 0 1.25rem;
   /*0 20px*/
@@ -329,7 +327,7 @@ a:hover {
 }
 
 .vp-header .main-header .header-wrapper .vp-menu #vp-nav-bar li {
-  width: 8.875rem;
+  width: 7.5rem;
 }
 
 .vp-header .main-header .header-wrapper .vp-menu #vp-nav-bar li.current-page-item {
@@ -338,7 +336,7 @@ a:hover {
 }
 
 .vp-header .main-header .header-wrapper .vp-menu #vp-nav-bar li.current-page-item a {
-  font: normal 100 1rem "SF-Pro-Rounded-Medium";
+  font: normal 100 0.875rem "SF-Pro-Rounded-Medium";
   color: #1180f3;
 }
 
@@ -347,9 +345,9 @@ a:hover {
 }
 
 .vp-header .main-header .header-wrapper .vp-menu #vp-nav-bar li a {
-  font: normal 100 1rem "SF-Pro-Rounded-Regular";
+  font: normal 100 0.875rem "SF-Pro-Rounded-Regular";
   color: #fff;
-  padding: 0.563rem 1.5rem;
+  padding: 0.625rem 0.813rem;
   position: relative;
   z-index: 2;
   display: -webkit-box;
@@ -392,8 +390,8 @@ a:hover {
 }
 
 .vp-header .main-header .header-wrapper .vp-controller .vp-button {
-  width: 3.375rem;
-  height: 3.375rem;
+  width: 2.813rem;
+  height: 2.813rem;
 }
 
 .vp-header .main-header .header-wrapper .vp-controller .vp-bell {
@@ -411,6 +409,7 @@ a:hover {
   border-radius: 50%;
   cursor: pointer;
   background-color: #282d45;
+  margin-right: 0.938rem;
 }
 
 .vp-header .main-header .header-wrapper .vp-controller .vp-user-initials {
@@ -434,47 +433,8 @@ a:hover {
 }
 
 .vp-header .main-header .header-wrapper .vp-controller .vp-user-initials span {
-  font-size: 1.375rem;
+  font-size: 1.125rem;
   font-family: "SF-Pro-Rounded-Semibold";
-}
-
-@media (max-width: 1600px) {
-  .vp-header .main-header {
-    max-width: 52.188rem;
-    padding: 0.313rem 0;
-  }
-  .vp-header .main-header .header-wrapper .vp-log img {
-    max-width: 9.688rem;
-  }
-  .vp-header .main-header .header-wrapper .vp-log span {
-    font-size: 0.6875rem;
-    padding: 0.188rem 0.375rem 0.125rem;
-    margin-left: 0.438rem;
-    line-height: 0.813rem;
-  }
-  .vp-header .main-header .header-wrapper .vp-menu {
-    max-width: 21.875rem;
-  }
-  .vp-header .main-header .header-wrapper .vp-menu #vp-nav-bar li {
-    width: 7.5rem;
-  }
-  .vp-header .main-header .header-wrapper .vp-menu #vp-nav-bar li.current-page-item a {
-    font-size: 0.875rem;
-  }
-  .vp-header .main-header .header-wrapper .vp-menu #vp-nav-bar li a {
-    font-size: 0.875rem;
-    padding: 0.625rem 0.813rem;
-  }
-  .vp-header .main-header .header-wrapper .vp-controller .vp-button {
-    width: 2.813rem;
-    height: 2.813rem;
-  }
-  .vp-header .main-header .header-wrapper .vp-controller .vp-bell {
-    margin-right: 0.938rem;
-  }
-  .vp-header .main-header .header-wrapper .vp-controller .vp-user-initials span {
-    font-size: 1.125rem;
-  }
 }
 
 @media (max-width: 992px) {
@@ -692,13 +652,13 @@ a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 4.75rem;
+  margin-top: 4.375rem;
 }
 
 .main-layout-container .campaign-contact-list .first-block-btn {
-  max-width: 73.125rem;
+  max-width: 52.188rem;
   width: 90%;
-  height: 3.938rem;
+  height: 3.625rem;
   margin: auto;
 }
 
@@ -728,7 +688,7 @@ a:hover {
       -ms-flex-align: center;
           align-items: center;
   cursor: pointer;
-  margin-top: 0.25rem;
+  margin-top: 0rem;
 }
 
 .main-layout-container .campaign-contact-list .first-block-btn .btn-back-img #back-to-campaigns p {
@@ -742,25 +702,11 @@ a:hover {
   color: #5b6179;
 }
 
-@media (max-width: 1600px) {
-  .main-layout-container .campaign-contact-list {
-    margin-top: 4.375rem;
-  }
-  .main-layout-container .campaign-contact-list .first-block-btn {
-    max-width: 52.188rem;
-    height: 3.625rem;
-  }
-  .main-layout-container .campaign-contact-list .first-block-btn .btn-back-img #back-to-campaigns,
-  .main-layout-container .campaign-contact-list .first-block-btn .btn-back-img #back-to-campaign {
-    margin-top: 0rem;
-  }
-}
-
 .main-layout-container .campaign-contact-list .second-block-campaign {
   width: 90%;
-  max-width: 73.125rem;
+  max-width: 52.188rem;
   border-radius: 0.75rem;
-  padding: 1.875rem 2.5rem;
+  padding: 1.25rem 1.563rem 0.625rem 1.875rem;
   background-image: -webkit-gradient(linear, right top, left top, from(#f6367f), to(#fe7470));
   background-image: linear-gradient(-90deg, #f6367f, #fe7470);
 }
@@ -779,11 +725,17 @@ a:hover {
 }
 
 .main-layout-container .campaign-contact-list .campaign-title .block-with-title h5 {
-  font: normal normal 1rem "SF-Pro-Rounded-Bold";
+  font: normal normal 0.813rem "SF-Pro-Rounded-Bold";
   color: #fff;
-  line-height: 1.063rem;
-  letter-spacing: 0.019rem;
-  margin-bottom: 0.375rem;
+  line-height: 0.938rem;
+  margin-bottom: 0.313rem;
+  letter-spacing: 0.016rem;
+}
+
+.main-layout-container .campaign-contact-list .campaign-title .block-with-title #campaign-input-select {
+  max-width: 30.625rem;
+  font-size: 2.625rem;
+  line-height: 2.813rem;
 }
 
 .main-layout-container .campaign-contact-list .campaign-title .block-with-title .content-input input {
@@ -804,14 +756,18 @@ a:hover {
 
 .main-layout-container .campaign-contact-list .campaign-title .block-with-title .content-input .characters-number-layer {
   height: 1.25rem;
-  margin-top: 0.625rem;
+  margin-top: 0.313rem;
 }
 
 .main-layout-container .campaign-contact-list .campaign-title .block-with-title #change-text-in-input {
-  margin-left: 0.938rem;
-  cursor: pointer;
-  width: 5.125rem;
+  margin-left: 0;
+  width: 1.938rem;
+  height: 1.938rem;
   margin-bottom: 1.563rem;
+}
+
+.main-layout-container .campaign-contact-list .campaign-title .block-with-title #change-text-in-input img {
+  width: 100%;
 }
 
 .main-layout-container .campaign-contact-list .campaign-title .block-with-btn {
@@ -825,6 +781,17 @@ a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.main-layout-container .campaign-contact-list .campaign-title .block-with-btn #top-campaign-contacts {
+  width: 11.063rem;
+  height: 2.5rem;
+  font-size: 0.938rem;
+  line-height: 1.125rem;
+}
+
+.main-layout-container .campaign-contact-list .campaign-title .block-with-btn #top-campaign-contacts ::after {
+  margin-bottom: 0.313rem;
 }
 
 .main-layout-container .campaign-contact-list .campaign-title .block-with-btn button {
@@ -844,7 +811,7 @@ a:hover {
 }
 
 .main-layout-container .campaign-contact-list .title-btn {
-  margin-top: 4.375rem;
+  margin-top: 1.25rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -854,10 +821,10 @@ a:hover {
 }
 
 .main-layout-container .campaign-contact-list .title-btn .simple-text-campaign {
-  font: normal normal 1rem "SF-Pro-Rounded-Bold";
+  font: normal normal 0.813rem "SF-Pro-Rounded-Bold";
   color: #fff;
-  line-height: 1rem;
-  letter-spacing: 0.019rem;
+  line-height: 0.938rem;
+  letter-spacing: 0.016rem;
   margin-right: 0.375rem;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -865,8 +832,8 @@ a:hover {
 }
 
 .main-layout-container .campaign-contact-list .title-btn .campaign-settings-button {
-  width: 1.875rem;
-  height: 1.875rem;
+  width: 1.375rem;
+  height: 1.375rem;
   border-radius: 50%;
   cursor: pointer;
   background-image: url(../../imgs/icon/CampaignEdit-Icon-Small.svg);
@@ -885,8 +852,21 @@ a:hover {
   margin-top: 0.813rem;
 }
 
+.main-layout-container .campaign-contact-list .title-btn .title-and-img-flex .simple-paragraph {
+  font: normal normal 0.938rem "SF-Pro-Rounded-Light";
+  color: #fff;
+  line-height: 0.875rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .main-layout-container .campaign-contact-list .title-btn .title-and-img-flex img {
-  margin-right: 0.625rem;
+  margin-right: 0.313rem;
+  height: 1.25rem;
 }
 
 .main-layout-container .campaign-contact-list .title-btn .title-and-img-flex p {
@@ -911,24 +891,13 @@ a:hover {
   width: 41%;
 }
 
-.main-layout-container .campaign-contact-list .title-btn .second-title .simple-paragraph {
-  font: normal normal 1.125rem "SF-Pro-Rounded-Light";
-  color: #fff;
-  line-height: 1.125rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 .main-layout-container .campaign-contact-list .title-btn .second-title .block-month {
-  font: normal normal 1rem "SF-Pro-Rounded-Medium";
+  font: normal normal 0.813rem "SF-Pro-Rounded-Medium";
   color: #fff;
+  line-height: 1rem;
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 1.563rem;
-  margin: 0 20px 0 10px;
+  margin: 0 0.938rem 0 0.313rem;
   padding: 5px 18px;
   text-transform: uppercase;
   display: -webkit-box;
@@ -943,9 +912,17 @@ a:hover {
   white-space: nowrap;
 }
 
+.main-layout-container .campaign-contact-list .title-btn .second-title .end {
+  margin-right: 0;
+}
+
+.main-layout-container .campaign-contact-list .title-btn .second-title {
+  width: 45%;
+}
+
 .main-layout-container .campaign-contact-list .title-btn .third-title {
   position: relative;
-  width: 25%;
+  width: 30%;
 }
 
 .main-layout-container .campaign-contact-list .title-btn .third-title .campaign-location-settings {
@@ -998,9 +975,9 @@ a:hover {
   margin-right: 0.625rem;
   margin-bottom: 0.625rem;
   border-radius: 3.125rem;
-  font: normal normal 1.125rem "SF-Pro-Rounded-Light";
+  font: normal normal 0.938rem "SF-Pro-Rounded-Light";
   color: #fff;
-  line-height: 1.125;
+  line-height: 0.875rem;
   position: relative;
 }
 
@@ -1030,87 +1007,17 @@ a:hover {
   opacity: 0.5;
 }
 
-@media (max-width: 1600px) {
-  .main-layout-container .campaign-contact-list .second-block-campaign {
-    max-width: 52.188rem;
-    padding: 1.25rem 1.563rem 0.625rem 1.875rem;
-  }
-  .main-layout-container .campaign-contact-list .second-block-campaign .campaign-title .block-with-title h5 {
-    font-size: 0.813rem;
-    line-height: 0.938rem;
-    margin-bottom: 0.313rem;
-    letter-spacing: 0.016rem;
-  }
-  .main-layout-container .campaign-contact-list .second-block-campaign .campaign-title .block-with-title #campaign-input-select {
-    max-width: 30.625rem;
-    font-size: 2.625rem;
-    line-height: 2.813rem;
-  }
-  .main-layout-container .campaign-contact-list .second-block-campaign .campaign-title .block-with-title .characters-number-layer {
-    margin-top: 0.313rem;
-  }
-  .main-layout-container .campaign-contact-list .second-block-campaign .campaign-title .block-with-title #change-text-in-input {
-    margin-left: 0;
-    width: 1.938rem;
-    height: 1.938rem;
-    margin-bottom: 1.563rem;
-  }
-  .main-layout-container .campaign-contact-list .second-block-campaign .campaign-title .block-with-title #change-text-in-input img {
-    width: 100%;
-  }
-  .main-layout-container .campaign-contact-list .second-block-campaign .campaign-title .block-with-btn #top-campaign-contacts {
-    width: 11.063rem;
-    height: 2.5rem;
-    font-size: 0.938rem;
-    line-height: 1.125rem;
-  }
-  .main-layout-container .campaign-contact-list .second-block-campaign .campaign-title .block-with-btn #top-campaign-contacts ::after {
-    margin-bottom: 0.313rem;
-  }
-  .main-layout-container .campaign-contact-list .second-block-campaign .title-btn {
-    margin-top: 1.25rem;
-  }
-  .main-layout-container .campaign-contact-list .second-block-campaign .title-btn .simple-text-campaign {
-    font-size: 0.813rem;
-    line-height: 0.938rem;
-    letter-spacing: 0.016rem;
-  }
-  .main-layout-container .campaign-contact-list .second-block-campaign .title-btn .campaign-settings-button {
-    width: 1.375rem;
-    height: 1.375rem;
-  }
-  .main-layout-container .campaign-contact-list .second-block-campaign .title-btn .title-and-img-flex img {
-    margin-right: 0.313rem;
-    height: 1.25rem;
-  }
-  .main-layout-container .campaign-contact-list .second-block-campaign .title-btn .title-and-img-flex .simple-paragraph {
-    font-size: 0.938rem;
-    line-height: 0.875rem;
-  }
-  .main-layout-container .campaign-contact-list .second-block-campaign .title-btn .title-and-img-flex .block-month {
-    font-size: 0.813rem;
-    margin: 0 0.938rem 0 0.313rem;
-    line-height: 1rem;
-  }
-  .main-layout-container .campaign-contact-list .second-block-campaign .title-btn .title-and-img-flex .end {
-    margin-right: 0;
-  }
-  .main-layout-container .campaign-contact-list .second-block-campaign .title-btn .second-title {
-    width: 45%;
-  }
-  .main-layout-container .campaign-contact-list .second-block-campaign .title-btn .third-title {
-    width: 30%;
-  }
-  .main-layout-container .campaign-contact-list .second-block-campaign .campaign-tags-block {
-    margin-top: 0.938rem;
-  }
-  .main-layout-container .campaign-contact-list .second-block-campaign .campaign-tags-block .campaign-tags-changed {
-    width: 1.375rem;
-    height: 1.375rem;
-  }
-  .main-layout-container .campaign-contact-list .second-block-campaign .campaign-tags-block .campaign-tags-changed img {
-    width: 100%;
-  }
+.main-layout-container .campaign-contact-list .campaign-tags-block {
+  margin-top: 0.938rem;
+}
+
+.main-layout-container .campaign-contact-list .campaign-tags-block .campaign-tags-changed {
+  width: 1.375rem;
+  height: 1.375rem;
+}
+
+.main-layout-container .campaign-contact-list .campaign-tags-block .campaign-tags-changed img {
+  width: 100%;
 }
 
 @media (max-width: 992px) {
@@ -1189,7 +1096,7 @@ a:hover {
 }
 
 .fourth-campaign-message {
-  max-width: 73.125rem;
+  max-width: 52.188rem;
   width: 90%;
   margin: auto;
   display: -webkit-box;
@@ -1228,15 +1135,15 @@ a:hover {
 
 .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style {
   width: 23.625rem;
-  height: 20.125rem;
+  height: 16.875rem;
+  padding: 1.563rem 1.875rem;
   background-color: rgba(25, 30, 54, 0.25);
   border-radius: 0.75rem;
-  padding: 1.875rem 2.125rem;
 }
 
 .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style .rounder-img {
-  width: 3.375rem;
-  height: 3.375rem;
+  width: 2.813rem;
+  height: 2.813rem;
   border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1247,6 +1154,10 @@ a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style .rounder-img img {
+  width: 1.563rem;
 }
 
 .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style .message {
@@ -1262,20 +1173,20 @@ a:hover {
 }
 
 .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style h1 {
-  font: normal normal 1.125rem "SF-Pro-Rounded-Regular";
+  font: normal normal 0.938rem "SF-Pro-Rounded-Regular";
   color: #fff;
   letter-spacing: 0.011rem;
-  margin-left: 0.938rem;
+  margin-left: 0.625rem;
   width: 50%;
 }
 
 .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style .position-progress-simple {
-  margin-top: 2.625rem;
+  margin-top: 1.25rem;
 }
 
 .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style .position-progress-simple .progress {
-  width: 10rem;
-  height: 10rem;
+  width: 9.375rem;
+  height: 9.375rem;
   background: none;
   position: relative;
 }
@@ -1301,7 +1212,7 @@ a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font: normal normal 2.688rem "SF-Pro-Rounded-Medium";
+  font: normal normal 1.875rem "SF-Pro-Rounded-Medium";
   color: #fff;
 }
 
@@ -1309,7 +1220,7 @@ a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font: normal normal 2.688rem "SF-Pro-Rounded-Medium";
+  font: normal normal 1.875rem "SF-Pro-Rounded-Medium";
   color: #fff;
 }
 
@@ -1328,22 +1239,24 @@ a:hover {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  margin-top: 3.75rem;
+  margin-top: 4.063rem;
 }
 
 .fourth-campaign-message .fourth-block-messages .title h1 {
-  font: normal normal 3.125rem "SF-Pro-Rounded-Semibold";
+  font: normal normal 2.188rem "SF-Pro-Rounded-Semibold";
   color: #fff;
-  padding-bottom: 0.938rem;
+  padding-bottom: 0.625rem;
 }
 
 .fourth-campaign-message .fourth-block-messages .title p {
-  font: normal normal 1rem "SF-Pro-Rounded-Light";
+  font: normal normal 0.938rem "SF-Pro-Rounded-Light";
   color: #797d95;
+  line-height: 1.375rem;
+  max-width: 25rem;
 }
 
 .fourth-campaign-message .fourth-block-messages .btn-block-messages {
-  width: 20.313rem;
+  width: 18.125rem;
   height: 100%;
   border-radius: 1.563rem;
   background-color: #3c415d;
@@ -1377,7 +1290,7 @@ a:hover {
 }
 
 .fourth-campaign-message .fourth-block-messages .btn-block-messages .container-btn .scheduled {
-  padding: 0.875rem 2.5rem;
+  padding: 0.625rem 1.563rem;
   height: 100%;
 }
 
@@ -1389,13 +1302,13 @@ a:hover {
 
 .fourth-campaign-message .fourth-block-messages .btn-block-messages .container-btn .active {
   border-radius: 1.313rem;
-  padding: 0.875rem 0;
+  padding: 0.625rem 0;
   background: #1279f1 !important;
   background: linear-gradient(176deg, #1279f1 0%, #0c4ce3 100%) !important;
 }
 
 .fourth-campaign-message .fourth-block-messages .compose-message button {
-  font: normal normal 1.125rem "SF-Pro-Rounded-Medium";
+  font: normal normal 0.875rem "SF-Pro-Rounded-Medium";
   color: #fff;
   letter-spacing: 0.025rem;
   background-color: #0d77f2;
@@ -1423,13 +1336,13 @@ a:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-top: 2.5rem;
+  margin-top: 1.875rem;
 }
 
 .fourth-campaign-message .fifth-block-info-messages .content {
   background-color: #2f344d;
   border-radius: 0.75rem;
-  padding: 1.875rem 2.875rem;
+  padding: 1rem 1.875rem 1.063rem;
   margin-bottom: 0.625rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1445,22 +1358,22 @@ a:hover {
 }
 
 .fourth-campaign-message .fifth-block-info-messages .content .d-flex {
-  margin-bottom: 0.625rem;
+  margin-bottom: 0.313rem;
 }
 
 .fourth-campaign-message .fifth-block-info-messages .content .title {
-  font: normal normal 1.375rem "SF-Pro-Rounded-Semibold";
+  font: normal normal 1.063rem "SF-Pro-Rounded-Semibold";
   color: #fff;
   margin-right: 0.625rem;
 }
 
 .fourth-campaign-message .fifth-block-info-messages .content .month {
-  font: normal normal 1rem "SF-Pro-Rounded-Light";
+  font: normal normal 0.813rem "SF-Pro-Rounded-Light";
   color: #797d95;
 }
 
 .fourth-campaign-message .fifth-block-info-messages .content .description {
-  font: normal normal 1rem "SF-Pro-Rounded-Light";
+  font: normal normal 0.938rem "SF-Pro-Rounded-Light";
   color: #fff;
 }
 
@@ -1475,8 +1388,8 @@ a:hover {
 
 .fourth-campaign-message .fifth-block-info-messages .message-contacts .img-block {
   position: relative;
-  width: 3.375rem;
-  height: 3.375rem;
+  width: 2.625rem;
+  height: 2.625rem;
   border-radius: 100%;
   border: 0.313rem solid #2f344d;
   -webkit-transform: scale(1.25);
@@ -1510,89 +1423,6 @@ a:hover {
   outline: none;
   background: none;
   color: #a7abc1;
-}
-
-@media screen and (max-width: 1600px) {
-  .fourth-campaign-message {
-    max-width: 52.188rem;
-  }
-  .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style {
-    height: 16.875rem;
-    padding: 1.563rem 1.875rem;
-  }
-  .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style .rounder-img {
-    width: 2.813rem;
-    height: 2.813rem;
-  }
-  .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style .rounder-img img {
-    width: 1.563rem;
-  }
-  .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style h1 {
-    font-size: 0.938rem;
-    margin-left: 0.625rem;
-  }
-  .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style .position-progress-simple {
-    margin-top: 1.25rem;
-  }
-  .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style .position-progress-simple .progress {
-    width: 9.375rem;
-    height: 9.375rem;
-  }
-  .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style .position-progress-simple .progress .progress-value .text-inside-progress {
-    font-size: 1.875rem;
-  }
-  .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style .position-progress-simple .progress .progress-value .text-inside-progress span {
-    font-size: 1.875rem;
-  }
-  .fourth-campaign-message .fourth-block-messages {
-    margin-top: 4.063rem;
-  }
-  .fourth-campaign-message .fourth-block-messages .title h1 {
-    font-size: 2.188rem;
-    padding-bottom: 0.625rem;
-  }
-  .fourth-campaign-message .fourth-block-messages .title p {
-    max-width: 25rem;
-    font-size: 0.938rem;
-    line-height: 1.375rem;
-  }
-  .fourth-campaign-message .fourth-block-messages .btn-block-messages {
-    width: 18.125rem;
-  }
-  .fourth-campaign-message .fourth-block-messages .btn-block-messages .container-btn .simple-style-btn {
-    font-size: 0.875rem;
-  }
-  .fourth-campaign-message .fourth-block-messages .btn-block-messages .container-btn .scheduled {
-    padding: 0.625rem 1.563rem;
-  }
-  .fourth-campaign-message .fourth-block-messages .btn-block-messages .container-btn .active {
-    padding: 0.625rem 0;
-  }
-  .fourth-campaign-message .fourth-block-messages .compose-message button {
-    font-size: 0.875rem;
-  }
-  .fourth-campaign-message .fifth-block-info-messages {
-    margin-top: 1.875rem;
-  }
-  .fourth-campaign-message .fifth-block-info-messages .content {
-    padding: 1rem 1.875rem 1.063rem;
-  }
-  .fourth-campaign-message .fifth-block-info-messages .content .d-flex {
-    margin-bottom: 0.313rem;
-  }
-  .fourth-campaign-message .fifth-block-info-messages .content .title {
-    font-size: 1.063rem;
-  }
-  .fourth-campaign-message .fifth-block-info-messages .content .month {
-    font-size: 0.813rem;
-  }
-  .fourth-campaign-message .fifth-block-info-messages .content .description {
-    font-size: 0.938rem;
-  }
-  .fourth-campaign-message .fifth-block-info-messages .message-contacts .img-block {
-    width: 2.625rem;
-    height: 2.625rem;
-  }
 }
 
 @media screen and (max-width: 992px) {

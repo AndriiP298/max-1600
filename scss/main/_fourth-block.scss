@@ -1,5 +1,5 @@
 .fourth-campaign-message {
-  max-width: 73.125rem; //1170px
+  max-width: 52.188rem; //835px
   width: 90%;
   margin: auto;
   display: flex;
@@ -19,18 +19,21 @@
 
       .progress-simple-style {
         width: 23.625rem; //378px
-        height: 20.125rem; //322px
+        height: 16.875rem; //270px
+          padding: 1.563rem 1.875rem; //25px 30px
         background-color: rgba(25, 30, 54, 0.25);
         border-radius: 0.75rem; //12px
-        padding: 1.875rem 2.125rem; //30px 34px
 
         .rounder-img {
-          width: 3.375rem; //54px
-          height: 3.375rem; //54px
+          @include size-square(2.813rem);
           border-radius: 50%;
           display: flex;
           justify-content: center;
           align-items: center;
+
+          img {
+            width: 1.563rem; //25px
+          }
         }
 
         .message {
@@ -49,19 +52,19 @@
           @include loadFont(
             $style: normal,
             $weight: normal,
-            $size: 1.125rem /*18px*/,
+            $size:  0.938rem, //15px
             $family: "SF-Pro-Rounded-Regular"
           );
           letter-spacing: 0.011rem; //0.18px
-          margin-left: 0.938rem; //15px
+          margin-left: 0.625rem; //10px
           width: 50%;
         }
 
         .position-progress-simple {
-          margin-top: 2.625rem; //42px
+          margin-top: 1.25rem; //20px
 
           .progress {
-            @include size-square(10rem); //160px
+            @include size-square(9.375rem); //150px
             background: none;
             position: relative;
 
@@ -86,7 +89,7 @@
                 @include loadFont(
                   $style: normal,
                   $weight: normal,
-                  $size: 2.688rem /*43px*/,
+                  $size: 1.875rem, //30px,
                   $family: "SF-Pro-Rounded-Medium"
                 );
 
@@ -95,7 +98,7 @@
                   @include loadFont(
                     $style: normal,
                     $weight: normal,
-                    $size: 2.688rem /*43px*/,
+                    $size: 1.875rem, //30px,
                     $family: "SF-Pro-Rounded-Medium"
                   );
                 }
@@ -116,16 +119,16 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-top: 3.75rem; //60px
+    margin-top: 4.063rem; //65px
     .title {
       h1 {
         @include loadFont(
           $style: normal,
           $weight: normal,
-          $size: 3.125rem /*50px*/,
+          $size: 2.188rem, //35px
           $family: "SF-Pro-Rounded-Semibold"
         );
-        padding-bottom: 0.938rem; //15px
+        padding-bottom: 0.625rem; //10px
       }
 
       p {
@@ -133,14 +136,16 @@
           $font-color: #797d95,
           $style: normal,
           $weight: normal,
-          $size: 1rem /*16px*/,
+          $size: 0.938rem, //15px,
           $family: "SF-Pro-Rounded-Light"
         );
+        line-height: 1.375rem; // 22px
+        max-width: 25rem; //400px
       }
     }
 
     .btn-block-messages {
-      width: 20.313rem; //325px
+      width: 18.125rem; //290px
       height: 100%;
       border-radius: 1.563rem; //25px
       background-color: #3c415d;
@@ -172,7 +177,7 @@
         }
 
         .scheduled {
-          padding: 0.875rem 2.5rem; //14px 40px
+          padding: 0.625rem 1.563rem; //10px 25px
           height: 100%;
         }
 
@@ -184,7 +189,7 @@
 
         .active {
           border-radius: 1.313rem; //21px
-          padding: 0.875rem 0; //14px 0
+          padding: 0.625rem 0; //10px 0
           background: #1279f1 !important;
           background: linear-gradient(
             176deg,
@@ -200,7 +205,7 @@
         @include loadFont(
             $style: normal,
             $weight: normal,
-            $size: 1.125rem /*18px*/ ,
+            $size: 0.875rem, //14px ,
             $family: "SF-Pro-Rounded-Medium"
           );
         letter-spacing: 0.025rem; //0.4px
@@ -220,11 +225,11 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin-top: 2.5rem; //40px
+    margin-top: 1.875rem; //30px
     .content {
       background-color: rgb(47, 52, 77);
       border-radius: 0.75rem; //12px
-      padding: 1.875rem 2.875rem; //30px 46px
+      padding: 1rem 1.875rem 1.063rem; //16px 30px 17px
       margin-bottom: 0.625rem; //10px
       display: flex;
       justify-content: space-between;
@@ -232,14 +237,14 @@
       transition: background-color 0.2s ease-in-out;
 
       .d-flex {
-        margin-bottom: 0.625rem; //10px;
+        margin-bottom: 0.313rem; //5px
       }
 
       .title {
         @include loadFont(
             $style: normal,
             $weight: normal,
-            $size: 1.375rem /*22px*/ ,
+            $size: 1.063rem, //17px,
             $family: "SF-Pro-Rounded-Semibold"
           );
         margin-right: 0.625rem; //10px;
@@ -250,7 +255,7 @@
           $font-color:#797d95,
           $style: normal,
           $weight: normal,
-          $size: 1rem /*16px*/ ,
+          $size: 0.813rem, //13px,
           $family: "SF-Pro-Rounded-Light"
         );
       }
@@ -259,7 +264,7 @@
         @include loadFont(
           $style: normal,
           $weight: normal,
-          $size: 1rem /*16px*/ ,
+          $size: 0.938rem, //15px ,
           $family: "SF-Pro-Rounded-Light"
         );
       }
@@ -272,8 +277,7 @@
       .img-block {
         position: relative;
 
-        width: 3.375rem; //54px
-        height: 3.375rem;
+        @include size-square(2.625rem); //42px
         border-radius: 100%;
         border: 0.313rem /*5px*/ solid #2f344d;
         transform: scale(1.25);
@@ -306,121 +310,6 @@
   }
 }
 
-@media screen and (max-width: 1600px) {
-  .fourth-campaign-message {
-    max-width: 52.188rem; //835px
-
-    .third-block-progress-bar {
-      .progress-bar-block {
-        .progress-simple-style {
-          height: 16.875rem; //270px
-          padding: 1.563rem 1.875rem; //25px 30px
-
-          .rounder-img {
-            width: 2.813rem; //45px
-            height: 2.813rem; //45px
-            img {
-              width: 1.563rem; //25px
-            }
-          }
-
-          h1 {
-            font-size: 0.938rem; //15px
-            margin-left: 0.625rem; //10px
-          }
-
-          .position-progress-simple {
-            margin-top: 1.25rem; //20px
-
-            .progress {
-              width: 9.375rem; //150px
-              height: 9.375rem; //150px
-
-              .progress-value {
-                .text-inside-progress {
-                  font-size: 1.875rem; //30px
-                  span {
-                    font-size: 1.875rem; //30px
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-
-    .fourth-block-messages {
-      margin-top: 4.063rem; //65px
-      .title {
-        h1 {
-          font-size: 2.188rem; //35px
-          padding-bottom: 0.625rem; //10px
-        }
-
-        p {
-          max-width: 25rem; //400px
-          font-size: 0.938rem; //15px
-          line-height: 1.375rem; // 22px
-        }
-      }
-
-      .btn-block-messages {
-        width: 18.125rem; //290px
-        .container-btn {
-          .simple-style-btn {
-            font-size: 0.875rem; //14px
-          }
-
-          .scheduled {
-            padding: 0.625rem 1.563rem; //10px 25px
-          }
-
-          .active {
-            padding: 0.625rem 0; //10px 0
-          }
-        }
-      }
-
-      .compose-message {
-        button {
-          font-size: 0.875rem; //14px
-        }
-      }
-    }
-
-    .fifth-block-info-messages {
-      margin-top: 1.875rem; //30px
-
-      .content {
-        padding: 1rem 1.875rem 1.063rem; //16px 30px 17px
-
-        .d-flex {
-          margin-bottom: 0.313rem; //5px
-        }
-
-        .title {
-          font-size: 1.063rem; //17px
-        }
-
-        .month {
-          font-size: 0.813rem; //13px
-        }
-
-        .description {
-          font-size: 0.938rem; //15px
-        }
-      }
-
-      .message-contacts {
-        .img-block {
-          width: 2.625rem; //42px
-          height: 2.625rem; //42px
-        }
-      }
-    }
-  }
-}
 
 @media screen and (max-width: 992px) {
   .fourth-campaign-message {

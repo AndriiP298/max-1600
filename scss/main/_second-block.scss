@@ -2,9 +2,12 @@
   .campaign-contact-list {
     .second-block-campaign {
       width: 90%;
-      max-width: 73.125rem; //1170px
+      max-width: 52.188rem; //835px
       border-radius: 0.75rem; //12px
-      padding: 1.875rem 2.5rem; //30px 40px
+      @include margin-or-padding(
+        padding,
+        1.25rem 1.563rem 0.625rem 1.875rem
+      ); //20px 25px 10px 30px
       background-image: linear-gradient(-90deg, #f6367f, #fe7470);
     }
 
@@ -19,12 +22,18 @@
           @include loadFont(
             $style: normal,
             $weight: normal,
-            $size: 1rem /*16px*/,
+            $size: 0.813rem,
             $family: "SF-Pro-Rounded-Bold"
           );
-          line-height: 1.063rem; //17px
-          letter-spacing: 0.019rem; //0.3px
-          margin-bottom: 0.375rem; //6px
+          line-height: 0.938rem; //15px
+          margin-bottom: 0.313rem; //5px
+          letter-spacing: 0.016rem; //0.26px
+        }
+
+        #campaign-input-select {
+          max-width: 30.625rem;
+          font-size: 2.625rem; //42px
+          line-height: 2.813rem; //45px
         }
 
         .content-input {
@@ -39,7 +48,7 @@
             outline: none;
             border: none;
             min-width: 2.5rem !important; //40px
-            max-width: 42.188rem; 
+            max-width: 42.188rem;
             padding: 0 0.125rem; // 0 2px 0 2px;
             line-height: 4.438rem; //71px
             border-bottom: 0.125rem /*2px*/ solid rgba(255, 255, 255, 0);
@@ -50,15 +59,19 @@
           }
           .characters-number-layer {
             height: 1.25rem; //20px
-            margin-top: 0.625rem; //10px
+            margin-top: 0.313rem; //5px
           }
         }
 
         #change-text-in-input {
-          margin-left: 0.938rem; //15px
-          cursor: pointer;
-          width: 5.125rem; //82px
-          margin-bottom: 1.563rem; // 25px
+          margin-left: 0;
+              width: 1.938rem; //31px
+              height: 1.938rem; //31px
+              margin-bottom: 1.563rem; //25px
+
+              img {
+                width: 100%;
+              }
         }
       }
 
@@ -66,6 +79,19 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+
+        
+          #top-campaign-contacts {
+            width: 11.063rem; //177px
+            height: 2.5rem; //40px
+            font-size: 0.938rem; //15px
+            line-height: 1.125rem; //18px
+
+            ::after {
+              margin-bottom: 0.313rem; //5px
+            }
+          }
+        
 
         button {
           width: 15.625rem; //250px
@@ -91,7 +117,7 @@
     }
 
     .title-btn {
-      margin-top: 4.375rem; //70px
+      margin-top: 1.25rem; //20px
       display: flex;
       justify-content: space-between;
 
@@ -99,11 +125,11 @@
         @include loadFont(
           $style: normal,
           $weight: normal,
-          $size: 1rem /*16px*/,
+          $size: 0.813rem, //13px
           $family: "SF-Pro-Rounded-Bold"
         );
-        line-height: 1rem; //16px
-        letter-spacing: 0.019rem; //0.3px
+        line-height: 0.938rem; //15px
+            letter-spacing: 0.016rem; //0.26px
         margin-right: 0.375rem; //6px
         overflow: hidden;
         text-overflow: ellipsis;
@@ -111,8 +137,7 @@
       }
 
       .campaign-settings-button {
-        width: 1.875rem; //30px
-        height: 1.875rem; //30px
+        @include size-square(1.375rem); //22px
         border-radius: 50%;
         cursor: pointer;
         background-image: url(../../imgs/icon/CampaignEdit-Icon-Small.svg);
@@ -126,8 +151,21 @@
         align-items: center;
         margin-top: 0.813rem; //13px
 
+        .simple-paragraph {
+          @include loadFont(
+            $style: normal,
+            $weight: normal,
+            $size: 0.938rem, //15px
+            $family: "SF-Pro-Rounded-Light"
+          );
+          line-height: 0.875rem; //14px
+          display: flex;
+          align-items: center;
+        }
+
         img {
-          margin-right: 0.625rem; //10px
+          margin-right: 0.313rem; //5px
+              height: 1.25rem; //20px
         }
 
         p {
@@ -142,6 +180,7 @@
           align-items: center;
         }
       }
+      
 
       .first-title {
         position: relative;
@@ -152,28 +191,17 @@
         position: relative;
         width: 41%;
 
-        .simple-paragraph {
-          @include loadFont(
-            $style: normal,
-            $weight: normal,
-            $size: 1.125rem /*18px*/,
-            $family: "SF-Pro-Rounded-Light"
-          );
-          line-height: 1.125rem /*18px*/;
-          display: flex;
-          align-items: center;
-        }
-
         .block-month {
           @include loadFont(
             $style: normal,
             $weight: normal,
-            $size: 1rem /*16px*/,
+            $size: 0.813rem, //13px,
             $family: "SF-Pro-Rounded-Medium"
           );
+          line-height: 1rem; //16px
           background-color: rgba(0, 0, 0, 0.3);
           border-radius: 1.563rem; //25px
-          margin: 0 20px 0 10px; //0 20px 0 10px
+          margin: 0 0.938rem 0 0.313rem; //0 15px 0 5px
           padding: 5px 18px; //5px 18px
           text-transform: uppercase;
           display: flex;
@@ -181,11 +209,19 @@
           justify-content: center;
           white-space: nowrap;
         }
+
+        .end {
+          margin-right: 0;
+        }
+      }
+
+      .second-title {
+        width: 45%;
       }
 
       .third-title {
         position: relative;
-        width: 25%;
+        width: 30%;
 
         .campaign-location-settings {
           margin-left: 0.625rem; //10px
@@ -242,10 +278,10 @@
           @include loadFont(
             $style: normal,
             $weight: normal,
-            $size: 1.125rem /*18px*/,
+            $size: 0.938rem, //15px
             $family: "SF-Pro-Rounded-Light"
           );
-          line-height: 1.125 /*18px*/;
+          line-height: 0.875rem; //14px
           position: relative;
         }
 
@@ -276,121 +312,20 @@
         }
       }
     }
-  }
-}
 
-@media (max-width: 1600px) {
-  .main-layout-container {
-    .campaign-contact-list {
-      .second-block-campaign {
-        max-width: 52.188rem; //835px
-        @include margin-or-padding(
-          padding,
-          1.25rem 1.563rem 0.625rem 1.875rem
-        ); //20px 25px 10px 30px
+    .campaign-tags-block {
+      margin-top: 0.938rem; //15px
 
-        .campaign-title {
-          .block-with-title {
-            h5 {
-              font-size: 0.813rem; //13px
-              line-height: 0.938rem; //15px
-              margin-bottom: 0.313rem; //5px
-              letter-spacing: 0.016rem; //0.26px
-            }
-
-            #campaign-input-select {
-              max-width: 30.625rem; 
-              font-size: 2.625rem; //42px
-              line-height: 2.813rem; //45px
-            }
-
-            .characters-number-layer {
-              margin-top: 0.313rem; //5px
-            }
-
-            #change-text-in-input {
-              margin-left: 0;
-              width: 1.938rem; //31px
-              height: 1.938rem; //31px
-              margin-bottom: 1.563rem; //25px
-
-              img {
-                width: 100%;
-              }
-            }
-          }
-
-          .block-with-btn {
-            #top-campaign-contacts {
-              width: 11.063rem; //177px
-              height: 2.5rem; //40px
-              font-size: 0.938rem; //15px
-              line-height: 1.125rem; //18px
-
-              ::after {
-                margin-bottom: 0.313rem; //5px
-              }
-            }
-          }
-        }
-
-        .title-btn {
-          margin-top: 1.25rem; //20px
-
-          .simple-text-campaign {
-            font-size: 0.813rem; //13px
-            line-height: 0.938rem; //15px
-            letter-spacing: 0.016rem; //0.26px
-          }
-
-          .campaign-settings-button {
-            @include size-square(1.375rem); //22px
-          }
-
-          .title-and-img-flex {
-            img {
-              margin-right: 0.313rem; //5px
-              height: 1.25rem; //20px
-            }
-
-            .simple-paragraph {
-              font-size: 0.938rem; //15px
-              line-height: 0.875rem; //14px
-            }
-
-            .block-month {
-              font-size: 0.813rem; //13px
-              margin: 0 0.938rem 0 0.313rem; //0 15px 0 5px
-              line-height: 1rem; //16px
-            }
-            .end {
-              margin-right: 0;
-            }
-          }
-
-          .second-title {
-            width: 45%;
-          }
-
-          .third-title {
-            width: 30%;
-          }
-        }
-
-        .campaign-tags-block {
-          margin-top: 0.938rem; //15px
-
-          .campaign-tags-changed {
-            @include size-square(1.375rem); //22px
-            img {
-              width: 100%;
-            }
-          }
+      .campaign-tags-changed {
+        @include size-square(1.375rem); //22px
+        img {
+          width: 100%;
         }
       }
     }
   }
 }
+
 
 @media (max-width: 992px) {
   .main-layout-container {

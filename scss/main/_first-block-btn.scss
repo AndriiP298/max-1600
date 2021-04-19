@@ -5,12 +5,12 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-top: 4.75rem; //76px
+    @include margin-padding-side(top, margin, 4.375); //70px
 
     .first-block-btn {
-      max-width: 73.125rem; //1170px
+      max-width: 52.188rem; //835px
       width: 90%;
-      height: 3.938rem; //63px
+      height: 3.625rem; //58px
       margin: auto;
 
       .btn-back-img {
@@ -26,7 +26,7 @@
           justify-content: center;
           align-items: center;
           cursor: pointer;
-          margin-top: 0.25rem; //4px
+          @include margin-padding-side(top, margin, 0);
 
           p {
             line-height: 2.938rem; // 47px
@@ -42,25 +42,6 @@
             a {
               color: $clr-5b6179;
             }
-          }
-        }
-      }
-    }
-  }
-}
-
-@media (max-width: 1600px) {
-  .main-layout-container {
-    .campaign-contact-list {
-      @include margin-padding-side(top, margin, 4.375); //70px
-      .first-block-btn {
-        max-width: 52.188rem; //835px
-        height: 3.625rem; //58px
-
-        .btn-back-img {
-          #back-to-campaigns,
-          #back-to-campaign {
-            @include margin-padding-side(top, margin, 0);
           }
         }
       }
